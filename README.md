@@ -1,4 +1,7 @@
 # celes
-Home page for "projectcelestia.dev".
 
-[Visit the Live Site](https://projectcelestia.dev)
+> Details : Home page for "projectcelestia.dev".
+
+---
+
+- [My github](https://github.com/Majesty22)
