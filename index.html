@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio and personal website of a software engineer.">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts: Inter for a clean, modern look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">DevPortfolio</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="about" class="hero">
+            <div class="container">
+                <span class="greeting">Hello, world.</span>
+                <h1>I'm <span class="highlight">Your Name</span>.</h1>
+                <p class="subtitle">A software engineer building accessible and performant web applications.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View My Work</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Featured Projects</h2>
+                    <p>Here are a few things I've built recently.</p>
+                </div>
+
+                <div class="grid">
+                    <!-- Project 1 -->
+                    <article class="card">
+                        <div class="card-content">
+                            <h3>E-Commerce Dashboard</h3>
+                            <p>A React-based dashboard for tracking sales and inventory in real-time. Uses Recharts for
+                                data visualization.</p>
+                            <div class="tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <a href="#" class="link-arrow">View Project &rarr;</a>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="card">
+                        <div class="card-content">
+                            <h3>Task Manager API</h3>
+                            <p>A RESTful API built with Python and Django. Features JWT authentication and Docker
+                                support.</p>
+                            <div class="tags">
+                                <span>Python</span>
+                                <span>Django</span>
+                                <span>Docker</span>
+                            </div>
+                            <a href="#" class="link-arrow">View Project &rarr;</a>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="card">
+                        <div class="card-content">
+                            <h3>Portfolio Template</h3>
+                            <p>A lightweight, responsive portfolio template built with semantic HTML5 and modern CSS3.
+                            </p>
+                            <div class="tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                            </div>
+                            <a href="#" class="link-arrow">View Project &rarr;</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            <p>I'm currently open to new opportunities. Feel free to reach out!</p>
+            <div class="social-links">
+                <a href="mailto:email@example.com">Email</a>
+                <a href="https://github.com">GitHub</a>
+                <a href="https://linkedin.com">LinkedIn</a>
+            </div>
+            <p class="copyright">&copy; 2024 Your Name. Built with HTML & CSS.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
